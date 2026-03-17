@@ -27,10 +27,12 @@ You can use my version directly (and keep updated) or host your own (and make yo
 2.  Create a new Bookmark (or drag any page to the bar) and name it `Font Detector`.
 3.  Right-click it, select **Edit Address**, and paste the following code (make sure to replace the URL if you made a fork):
 
-```javascript
+```
+javascript
 javascript:(function(){if(!document.getElementById('fd-script')){var%20js=document.createElement('script');js.src='[https://cdn.jsdelivr.net/gh/pedroarilla/font-detector@latest/font-detector.js';js.id='fd-script';document.body.appendChild(js](https://cdn.jsdelivr.net/gh/pedroarilla/font-detector@latest/font-detector.js';js.id='fd-script';document.body.appendChild(js));}})();
+```
 
-3. Inspect Fonts
+### 3. Inspect Fonts
 
 Click the bookmark in your favorites bar to activate it.
 
@@ -40,7 +42,7 @@ Click on any text to instantly search for that font on Google.
 
 Press Esc to deactivate and remove the tool.
 
-⚖️ License
+## License
 Copyright 2026, Pedro Arilla.
 
 Licensed under the Apache License, Version 2.0 (the "License");
