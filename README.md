@@ -20,10 +20,9 @@ You can use my version directly or host your own:
 ### 2. Create the Bookmarklet in your browser
 1.  Create a new bookmark.
 2.  Name it `Font Detector`.
-3.  Paste this URL:
+3.  Paste this URL in the address field:
 
 ```
-javascript
 javascript:(function(){if(!document.getElementById('fd-script')){var%20js=document.createElement('script');js.src='[https://cdn.jsdelivr.net/gh/pedroarilla/font-detector@latest/font-detector.js';js.id='fd-script';document.body.appendChild(js](https://cdn.jsdelivr.net/gh/pedroarilla/font-detector@latest/font-detector.js';js.id='fd-script';document.body.appendChild(js));}})();
 ```
 
@@ -35,7 +34,7 @@ Hover over any text to see font family, weight, and size.
 
 Click on any text to instantly search for that font on Google.
 
-Press Esc to deactivate and remove the tool.
+Press `Esc` to deactivate and remove the tool.
 
 ## Licence
 Copyright 2026, Pedro Arilla.
