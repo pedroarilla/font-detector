@@ -4,6 +4,8 @@ A lightweight, no-installation-required font inspector for Safari (and other bro
 
 Originally developed as a Chrome Extension, now adapted to work as a cross-platform bookmarklet.
 
+![Screenshot of the Font Detector tool in action, displaying font family, weight, and size over a text sample.](screenshot.png)
+
 > [!IMPORTANT]
 > * **Privacy:** It only executes when you explicitly click it.
 > * **Compatibility note:** This tool works on 99% of the web.  If a site uses a strict *Content Security Policy (CSP)* (Twitter, GitHub, banking...) that prevents the execution of external scripts for security reasons. On those sites, the bookmarklet will simply not load.
